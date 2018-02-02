@@ -35,6 +35,13 @@ class UserInput extends Component {
             onChange={(e) => this.handleChange(e)}
             placeholder='username'
           />
+          <label>Hometown: </lable>
+          <input
+            type="text"
+            name='hometown'
+            value={this.state.username}
+            onChange={(e) => this.handleChange(e)}
+          />
         </form>
     );
   }
