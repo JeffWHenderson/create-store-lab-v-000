@@ -19,7 +19,7 @@ class UserInput extends Component {
   handleOnSubmit(e) {
     e.preventDefault()
     this.props.store.dispatch({
-      type 'ADD_USER',
+      type: 'ADD_USER',
       user: this.state
     })
   }
