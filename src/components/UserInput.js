@@ -23,11 +23,11 @@ class UserInput extends Component {
       user: this.state
     })
   }
-  
+
   render() {
     return(
       <div>
-        user input
+        <form onSubmit={(e) => this.handleOnSubmit(e)} >
       </div>
     );
   }
