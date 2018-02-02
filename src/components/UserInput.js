@@ -28,6 +28,8 @@ class UserInput extends Component {
     return(
       <div>
         <form onSubmit={(e) => this.handleOnSubmit(e)} >
+
+        </form>
       </div>
     );
   }
