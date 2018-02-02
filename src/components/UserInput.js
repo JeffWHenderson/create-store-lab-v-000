@@ -35,7 +35,7 @@ class UserInput extends Component {
             onChange={(e) => this.handleChange(e)}
             placeholder='username'
           />
-          <label>Hometown: </lable>
+          <label>Hometown: </label>
           <input
             type="text"
             name='hometown'
