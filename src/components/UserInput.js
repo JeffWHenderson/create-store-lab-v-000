@@ -42,6 +42,7 @@ class UserInput extends Component {
             value={this.state.username}
             onChange={(e) => this.handleChange(e)}
           />
+          <input type="submit" />
         </form>
     );
   }
