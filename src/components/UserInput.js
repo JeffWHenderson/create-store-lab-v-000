@@ -16,7 +16,14 @@ class UserInput extends Component {
     })
   }
 
-  handleOnSubmit(e)
+  handleOnSubmit(e) {
+    e.preventDefault()
+    this.props.store.dispatch({
+      type 'ADD_USER',
+      user: this.state
+    })
+  }
+  
   render() {
     return(
       <div>
