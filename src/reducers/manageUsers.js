@@ -1,2 +1,5 @@
-export default function manageUsers(state, action){
+export default function manageUsers(
+  state = {
+    users: []
+  }, action){
 }
