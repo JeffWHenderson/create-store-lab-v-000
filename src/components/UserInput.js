@@ -27,7 +27,14 @@ class UserInput extends Component {
   render() {
     return(
         <form onSubmit={(e) => this.handleOnSubmit(e)} >
-
+          <label> Enter Username: </label>
+          <input
+            type="text"
+            name="username"
+            value={this.state.username}
+            onChange={(e) => this.handleChange(e)}
+            placeholder='username'
+          />
         </form>
     );
   }
